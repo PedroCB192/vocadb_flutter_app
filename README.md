@@ -6,7 +6,7 @@ Este proyecto nace como una **versión moderna y simplificada** de la **[app ofi
 
 ---
 
-## 🎯 Propósito del Proyecto
+## Propósito del Proyecto
 
 El objetivo principal de este proyecto es **aprender y practicar**:
 
@@ -21,7 +21,7 @@ La aplicación es **solo de consumo**: no permite crear, editar ni sincronizar c
 
 ---
 
-## 🚀 Funcionalidades (alto nivel)
+## Funcionalidades
 
 Actualmente, la app está pensada para ofrecer:
 
@@ -36,7 +36,7 @@ Las funcionalidades se implementan de forma incremental conforme avanza el apren
 
 ---
 
-## 🧱 Arquitectura
+## Arquitectura
 
 El proyecto utiliza una arquitectura basada en **separación por features** (inspirada en *Screaming Architecture*), donde cada funcionalidad agrupa:
 
@@ -52,7 +52,7 @@ Esto permite:
 
 ---
 
-## 📡 API
+## API
 
 La app consume la **API pública de [VocaDB](https://vocadb.net/)**:
 
@@ -63,15 +63,15 @@ No requiere autenticación.
 
 ---
 
-## 📌 Estado del Proyecto
+## Estado del Proyecto
 
-🚧 **En desarrollo activo**
+ **En desarrollo activo**
 
 Este proyecto está en constante evolución y su estructura y funcionalidades pueden cambiar conforme se aprende y se experimenta con nuevas ideas.
 
 ---
 
-## 📄 Licencia
+##  Licencia
 
 Proyecto con fines educativos y de aprendizaje.  
 No afiliado oficialmente con **[VocaDB](https://vocadb.net/)**.
