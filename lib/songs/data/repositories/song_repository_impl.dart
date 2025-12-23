@@ -15,4 +15,12 @@ class SongRepositoryImpl implements SongRepository {
         .map((json) => SongModel.fromJson(json).toEntity())
         .toList();
   }
+
+  @override
+  Future<List<Song>> getPostedSong() async {
+    final songJsonList = await vocadbSongApi.fetchPostedSongs();
+    return songJsonList
+        .map((json) => SongModel.fromJson(json).toEntity())
+        .toList();
+  }
 }
