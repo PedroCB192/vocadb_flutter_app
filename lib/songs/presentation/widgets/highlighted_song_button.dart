@@ -20,7 +20,7 @@ class HighlightedSongButton extends StatelessWidget {
           child: Stack(
             fit: StackFit.expand,
             children: [
-              // 🖼 Imagen
+              // Imagen
               Image.network(
                 song.thumbUrl ?? '',
                 fit: BoxFit.cover,
@@ -30,7 +30,7 @@ class HighlightedSongButton extends StatelessWidget {
                 ),
               ),
 
-              // 🌑 Gradiente inferior
+              // Black gradient overlay
               Container(
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
@@ -41,7 +41,7 @@ class HighlightedSongButton extends StatelessWidget {
                 ),
               ),
 
-              // 📝 Nombre de la canción
+              // Name of the song
               Positioned(
                 left: 6,
                 right: 6,
