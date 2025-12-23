@@ -1,5 +1,5 @@
-import 'package:vocadb_flutter_app/songs/domain/entities/song.dart';
-import 'package:vocadb_flutter_app/songs/domain/repositories/song_repository.dart';
+import 'package:vocadb_flutter_app/features/songs/domain/entities/song.dart';
+import 'package:vocadb_flutter_app/features/songs/domain/repositories/song_repository.dart';
 
 class GetHighlightedSong {
   final SongRepository repository;

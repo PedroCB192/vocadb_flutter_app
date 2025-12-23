@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vocadb_flutter_app/app/di.dart';
-import 'package:vocadb_flutter_app/songs/presentation/pages/song_list_page.dart';
+import 'package:vocadb_flutter_app/features/home/presentation/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());

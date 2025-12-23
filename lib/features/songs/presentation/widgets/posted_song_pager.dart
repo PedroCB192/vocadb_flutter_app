@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:vocadb_flutter_app/songs/domain/entities/song.dart';
-import 'package:vocadb_flutter_app/songs/presentation/widgets/posted_song_page.dart';
+import 'package:vocadb_flutter_app/features/songs/domain/entities/song.dart';
+import 'package:vocadb_flutter_app/features/songs/presentation/widgets/posted_song_page.dart';
 
 class PostedSongsPager extends StatefulWidget {
   final List<Song> songs;

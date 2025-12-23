@@ -1,7 +1,7 @@
-import 'package:vocadb_flutter_app/songs/data/datasources/vocadb_song_api.dart';
-import 'package:vocadb_flutter_app/songs/data/models/song_model.dart';
-import 'package:vocadb_flutter_app/songs/domain/entities/song.dart';
-import 'package:vocadb_flutter_app/songs/domain/repositories/song_repository.dart';
+import 'package:vocadb_flutter_app/features/songs/data/datasources/vocadb_song_api.dart';
+import 'package:vocadb_flutter_app/features/songs/data/models/song_model.dart';
+import 'package:vocadb_flutter_app/features/songs/domain/entities/song.dart';
+import 'package:vocadb_flutter_app/features/songs/domain/repositories/song_repository.dart';
 
 class SongRepositoryImpl implements SongRepository {
   final VocadbSongApi vocadbSongApi;

@@ -1,4 +1,4 @@
-import 'package:vocadb_flutter_app/songs/domain/entities/song.dart';
+import 'package:vocadb_flutter_app/features/songs/domain/entities/song.dart';
 
 abstract class SongRepository {
   Future<List<Song>> getHighlightedSong();

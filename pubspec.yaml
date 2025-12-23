@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.0
+  get_it: ^7.6.0
 
 dev_dependencies:
   flutter_test:

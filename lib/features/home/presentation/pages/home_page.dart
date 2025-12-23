@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:vocadb_flutter_app/songs/presentation/controllers/song_controller.dart';
-import 'package:vocadb_flutter_app/songs/presentation/widgets/posted_song_pager.dart';
-import '../widgets/highlighted_songs_pager.dart';
+import 'package:vocadb_flutter_app/features/songs/presentation/controllers/song_controller.dart';
+import 'package:vocadb_flutter_app/features/songs/presentation/widgets/posted_song_pager.dart';
+import '../../../songs/presentation/widgets/highlighted_songs_pager.dart';
 
 class SongListPage extends StatelessWidget {
   final SongController controller;
